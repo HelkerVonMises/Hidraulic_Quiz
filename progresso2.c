@@ -243,7 +243,7 @@ char yon (){
     printf("\t\t\t\tPonto de fulgor\n\n\t\tPonto de fulgor é a menor temperatura na qual o combustível libera vapor.\n\t\t\tSabendo disso, qual o ponto de fulgor do Óleo Mineral?\n\nA) Entre 160ºC e 180ºC\nB) Entre 220ºF e 240ºF\nC) Entre 30ºC e 50ºC\nD) Entre 220ºC e 240ºC\nE) Nenhuma das respostas acima\n\nResposta: \n\n");
 }
 char go (){
-    printf("\t\t\t\tDemulsibilidade\n\n\t\tQual a característica da demulsibilidade?\n\n) A capacidade de misturar óleo e água\nB) A capacidade de dissolver água\nC) A capacidade de separar água e óleo\nD) A capacidade de absorver água\nE) Nenhuma das anteriores\n\nResposta: \n\n");
+    printf("\t\t\t\tDemulsibilidade\n\n\t\tQual a característica da demulsibilidade?\n\nB) A capacidade de misturar óleo e água\nB) A capacidade de dissolver água\nC) A capacidade de separar água e óleo\nD) A capacidade de absorver água\nE) Nenhuma das anteriores\n\nResposta: \n\n");
 }
 char roku (){
     printf("\t\t\t\tDemulsibilidade\n\n\t\tO que ocorrerá com a diminuição da demulsibilidade?\n\na) O aumento da resistência dos componentes\nb) A higienização instantânea dos componentes\nc) A diminuição da vida útil do equipamento\nd) A expansão dos equipamentos\nE) Nenhuma das alternativas\n\nResposta: \n\n");
