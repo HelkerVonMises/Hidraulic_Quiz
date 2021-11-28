@@ -173,7 +173,7 @@ char roku();
         break;
     }
 char ichi ();
-    scanf ("%c", c[0]);
+    scanf ("%c", c);
         if(c[0]=='c'){
         printf("Isso ai!");
         }
@@ -181,8 +181,40 @@ char ichi ();
             goto fim;
         }
     char ni ();
-    scanf("%c", c[1]);
+    scanf("%s", c);
     if(c[1]=='a'){
+        printf("Isso ai!");
+    }
+        else{
+            goto fim;
+        }
+    char san ();
+    scanf("%s", c);
+    if(c[2]=='a'){
+        printf("Isso ai!");
+    }
+        else{
+            goto fim;
+        }
+    char yon ();
+    scanf("%s", c);
+    if(c[3]=='a'){
+        printf("Isso ai!");
+    }
+        else{
+            goto fim;
+        }
+    char go ();
+    scanf("%s", c);
+    if(c[4]=='a'){
+        printf("Isso ai!");
+    }
+        else{
+            goto fim;
+        }
+    char roku ();
+    scanf("%s", c);
+    if(c[5]=='a'){
         printf("Isso ai!");
     }
         else{
