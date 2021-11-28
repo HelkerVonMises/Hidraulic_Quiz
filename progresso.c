@@ -183,7 +183,7 @@ char ichi ();
     char ni ();
     scanf("%s", c);
     if(c[1]=='a'){
-        printf("Isso ai!");
+        printf("Cê ta doido");
     }
         else{
             goto fim;
@@ -191,7 +191,7 @@ char ichi ();
     char san ();
     scanf("%s", c);
     if(c[2]=='a'){
-        printf("Isso ai!");
+        printf("Brabo");
     }
         else{
             goto fim;
@@ -199,7 +199,7 @@ char ichi ();
     char yon ();
     scanf("%s", c);
     if(c[3]=='a'){
-        printf("Isso ai!");
+        printf("Vai que vai");
     }
         else{
             goto fim;
@@ -207,7 +207,7 @@ char ichi ();
     char go ();
     scanf("%s", c);
     if(c[4]=='a'){
-        printf("Isso ai!");
+        printf("Ta com tudo hein");
     }
         else{
             goto fim;
@@ -215,13 +215,13 @@ char ichi ();
     char roku ();
     scanf("%s", c);
     if(c[5]=='a'){
-        printf("Isso ai!");
+        printf("壮大");
     }
         else{
             goto fim;
         }
     fim:
-    printf("Não foi dessa vez");
+    printf("Game over");
 }
 
 char ichi (){
