@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <conio.h>
-#include <unistd.h>     //comando sleep
-#include <stdlib.h>     //comando clear
+#include <unistd.h>
 #include <time.h>
 
 char ichi ();
@@ -190,7 +189,7 @@ char ichi ();
         }
     char san ();
     scanf("%s", c);
-    if(c[2]=='a'){
+    if(c[2]=='e'){
         printf("Brabo");
     }
         else{
@@ -198,7 +197,7 @@ char ichi ();
         }
     char yon ();
     scanf("%s", c);
-    if(c[3]=='a'){
+    if(c[3]=='d'){
         printf("Vai que vai");
     }
         else{
@@ -206,7 +205,7 @@ char ichi ();
         }
     char go ();
     scanf("%s", c);
-    if(c[4]=='a'){
+    if(c[4]=='c'){
         printf("Ta com tudo hein");
     }
         else{
@@ -214,7 +213,7 @@ char ichi ();
         }
     char roku ();
     scanf("%s", c);
-    if(c[5]=='a'){
+    if(c[5]=='c'){
         printf("壮大");
     }
         else{
@@ -228,17 +227,17 @@ char ichi (){
     printf("\t\t\t\t\tViscosidade\n\t\tUma das funções do óleo com menor viscosidade no sistema é:\n\nA) Desgastar as peças do sistema\nB) Dificultar o escoamento\nC) Lubrificar todas as peças do sistema de forma rápida e uniforme\nD) Demandar maior manutenção\nE) Gerar maior esforço do motor\n\nResposta: \n\n");
     }
 char ni (){
-    printf("\t\t\t\t\tPropriedades do óleo\n");
+    printf("\t\t\t\tPropriedades do óleo\n\n\t\tA textura do óleo é importante para o sistema?\n\nA) Sim, pois o óleo deve gerar uma película protetora no sistema;\nB) Não, pois o óleo atrapalha o sistema;\nC) Sim, pois o óleo deve gerar uma resistência no motor;\nD) Não é importante para o sistema;\nE) Nenhuma das alternativas acima;\n\nResposta: \n\n");
 }
 char san (){
-    printf("\n");
+    printf("\t\t\t\tComposição do óleo\n\n\t\tQuais são as três bases do Óleo Mineral?\n\nA) Parafínico, Graxante e Misto;\nB) Sintético, Vegetal e Misto;\nC) Sintético, Naftênico e Vegetal; \nD) Sintético, Naftênico e Misto;\nE) Parafínico, Naftênico e Misto;\n\nResposta: \n\n");
 }
 char yon (){
-    printf("\n");
+    printf("\t\t\t\t\tPonto de fulgor\n\n\t\tPonto de fulgor é a menor temperatura na qual o combustível libera vapor.\n\t\t\tSabendo disso, qual o ponto de fulgor do Óleo Mineral?\n\nA) Entre 160ºC e 180ºC.\nB) Entre 220ºF e 240ºF.\nC) Entre 30ºC e 50ºC.\nD) Entre 220ºC e 240ºC.\nE) Nenhuma das respostas acima.\n\nResposta: \n\n");
 }
 char go (){
-    printf("\n");
+    printf("\t\t\t\tDemulsibilidade\n\n\t\tQual a característica da demulsibilidade?\n\n) A capacidade de misturar óleo e água;\nB) A capacidade de dissolver água;\nC) A capacidade de separar água e óleo;\nD) A capacidade de absorver água;\nE) Nenhuma das anteriores.\n\nResposta: \n\n");
 }
 char roku (){
-    printf("\n");
+    printf("\t\t\t\tDemulsibilidade\n\n\t\tO que ocorrerá com a diminuição da demulsibilidade?\n\na) O aumento da resistência dos componentes;\nb) A higienização instantânea dos componentes;\nc) A diminuição da vida útil do equipamento;\nd) A expansão dos equipamentos;\nE) Nenhuma das alternativas.\n\nResposta: \n\n");
 }
