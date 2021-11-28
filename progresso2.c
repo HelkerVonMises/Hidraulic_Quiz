@@ -22,6 +22,7 @@ char roku();
         sleep(2);
     printf("\t\t\t\t\tBoa sorte :)\n\n");
         sleep(2);
+    system("clear");
 
     srand(time(NULL));
         a[0]=rand()%6;
