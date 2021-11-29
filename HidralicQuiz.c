@@ -18,7 +18,7 @@ char roku();
     char var1, var2, var3, var4, var5, var6;
     int a[10];
     
-    printf("\t\tBem vindo ao quiz lendário sobre hidráulica versão Beta 1.0\n");
+    printf("\t\tBem vindo ao quiz hidráulico lendário versão Beta 1.0\n");
         sleep(2);
     printf("\t\t\tO tema do quiz é sobre fluídos hidráulicos\n");
         sleep(2);
@@ -177,17 +177,19 @@ char roku();
 }
 char ichi (){
     char var1;
-    printf("\t\t\t\tViscosidade\n\t\tUma das funções do óleo com menor viscosidade no sistema é:\n\nA) Desgastar as peças do sistema\nB) Dificultar o escoamento\nC) Lubrificar todas as peças do sistema de forma rápida e uniforme\nD) Demandar maior manutenção\nE) Gerar maior esforço do motor\n\n");
+    setlocale(LC_ALL,"");
+    printf("\t\t\t\tViscosidade\n\t\tUma das funções do óleo com menor viscosidade no sistema é:\n\nA) Desgastar as peças do sistema\nB) Dificultar o escoamento\nC) Gerar maior esforço do motor\nD) Demandar maior manutenção\nE) Lubrificar todas as peças do sistema de forma rápida e uniforme\n\n");
     printf ("\n\nResposta: ");
     fflush(stdin);
     scanf(" %c", &var1);
     system("clear");
-        if(var1=='c')
+        if(var1=='e')
     {printf("YaY\n\n");}
         else{printf("No\n\n");}
 }
 char ni (){
     char var2;
+    setlocale(LC_ALL,"");
     printf("\t\t\t\tPropriedades do óleo\n\n\t\tA textura do óleo é importante para o sistema?\n\nA) Sim, pois o óleo deve gerar uma película protetora no sistema\nB) Não, pois o óleo atrapalha o sistema\nC) Sim, pois o óleo deve gerar uma resistência no motor\nD) Não é importante para o sistema\nE) Nenhuma das alternativas acima\n\n");
     printf ("\n\nResposta: ");
     fflush(stdin);
@@ -202,6 +204,7 @@ char ni (){
 }
 char san (){
     char var3;
+    setlocale(LC_ALL,"");
     printf("\t\t\t\tComposição do óleo\n\n\t\tQuais são as três bases do Óleo Mineral?\n\nA) Parafínico, Graxante e Misto\nB) Sintético, Vegetal e Misto\nC) Sintético, Naftênico e Vegetal\nD) Sintético, Naftênico e Misto\nE) Parafínico, Naftênico e Misto\n\n");
     printf ("\n\nResposta: ");
     fflush(stdin);
@@ -216,6 +219,7 @@ char san (){
 }
 char yon (){
     char var4;
+    setlocale(LC_ALL,"");
     printf("\t\t\t\tPonto de fulgor\n\n\t\tPonto de fulgor é a menor temperatura na qual o combustível libera vapor.\n\t\t\tSabendo disso, qual o ponto de fulgor do Óleo Mineral?\n\nA) Entre 160ºC e 180ºC\nB) Entre 220ºF e 240ºF\nC) Entre 30ºC e 50ºC\nD) Entre 220ºC e 240ºC\nE) Nenhuma das respostas acima\n\n");
     printf ("\n\nResposta: ");
     fflush(stdin);
@@ -230,6 +234,7 @@ char yon (){
 }
 char go (){
     char var5;
+    setlocale(LC_ALL,"");
     printf("\t\t\t\tDemulsibilidade\n\n\t\tQual a característica da demulsibilidade?\n\nA) A capacidade de misturar óleo e água\nB) A capacidade de dissolver água\nC) A capacidade de separar água e óleo\nD) A capacidade de absorver água\nE) Nenhuma das anteriores\n\n");
     printf ("\n\nResposta: ");
     fflush(stdin);
@@ -244,12 +249,13 @@ char go (){
 }
 char roku (){
     char var6;
-    printf("\t\t\t\tDemulsibilidade\n\n\t\tO que ocorrerá com a diminuição da demulsibilidade?\n\nA) O aumento da resistência dos componentes\nB) A higienização instantânea dos componentes\nC) A diminuição da vida útil do equipamento\nD) A expansão dos equipamentos\nE) Nenhuma das alternativas\n\n");
+    setlocale(LC_ALL,"");
+    printf("\t\t\t\tDemulsibilidade\n\n\t\tO que ocorrerá com a diminuição da demulsibilidade?\n\nA) O aumento da resistência dos componentes\nB) A diminuição da vida útil do equipamento\nC) A higienização instantânea dos componentes\nD) A expansão dos equipamentos\nE) Nenhuma das alternativas\n\n");
         printf ("\n\nResposta: ");
     fflush(stdin);
     scanf(" %c", &var6);
     system("clear");
-    if(var6=='c'){
+    if(var6=='b'){
         printf("YaY\n\n");
     }
         else{
